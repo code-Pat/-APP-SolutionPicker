@@ -2,8 +2,7 @@
 //  AddOptionCollectionViewCell.swift
 //  solutionDemo
 //
-//  Created by 정재근 on 2021/04/24.
-//
+
 
 import UIKit
 
