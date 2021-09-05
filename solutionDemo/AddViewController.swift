@@ -2,16 +2,10 @@
 //  AddViewController.swift
 //  solutionDemo
 //
-//  Created by 정재근 on 2021/05/08.
-//
+
 
 import UIKit
 import CoreData
-<<<<<<< HEAD
-
-=======
->>>>>>> d8c541404b0696eeb9d5afcc41078cd18bf2f989
-
 
 class AddViewController: UIViewController {
     
@@ -106,19 +100,6 @@ class AddViewController: UIViewController {
     func uiViewRoundCorner(){
         titleUiView.layer.cornerRadius = 12.0
         optionsUiView.layer.cornerRadius = 12.0
-//        titleTf.layer.cornerRadius = 15.0
-//        option1Tf.layer.cornerRadius = 15.0
-//        option2Tf.layer.cornerRadius = 15.0
-//        option3Tf.layer.cornerRadius = 15.0
-//        option4Tf.layer.cornerRadius = 15.0
-//        option5Tf.layer.cornerRadius = 15.0
-//        option6Tf.layer.cornerRadius = 15.0
-//        option7Tf.layer.cornerRadius = 15.0
-//        option9Tf.layer.cornerRadius = 15.0
-//        option9Tf.layer.cornerRadius = 15.0
-//        option10Tf.layer.cornerRadius = 15.0
-//        option11Tf.layer.cornerRadius = 15.0
-//        option12Tf.layer.cornerRadius = 15.0
     }
     @objc fileprivate func saveList() {
         print("save")
