@@ -2,8 +2,6 @@
 //  CoreDataManager.swift
 //  solutionDemo
 //
-//  Created by Patrick Lee on 4/24/21.
-//
 
 import Foundation
 import UIKit
