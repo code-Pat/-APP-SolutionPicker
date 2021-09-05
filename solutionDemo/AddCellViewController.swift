@@ -2,8 +2,7 @@
 //  AddCellViewController.swift
 //  solutionDemo
 //
-//  Created by 정재근 on 2021/04/23.
-//
+
 
 import UIKit
 import CoreData
@@ -103,26 +102,6 @@ class AddCellViewController: UIViewController,UITableViewDelegate,UITableViewDat
         //putOptionsToArray()
         //createShortcut()
     }
-    /*
-     // options textfield에서 받은 인풋을 임의 배열 tmpArray에 우선적으로 집어넣음.
-    func putOptionsToArray() {
-        var tmpArray : [String] = []
-        if !optionTextField1.isEmpty {tmpArray.append(optionTextField1)}
-        else if !optionTextField2.isEmpty {tmpArray.append(optionTextField2)}
-        else if !optionTextField3.isEmpty {tmpArray.append(optionTextField3)}
-        else if !optionTextField4.isEmpty {tmpArray.append(optionTextField4)}
-        else if !optionTextField5.isEmpty {tmpArray.append(optionTextField5)}
-        else if !optionTextField6.isEmpty {tmpArray.append(optionTextField6)}
-        else if !optionTextField7.isEmpty {tmpArray.append(optionTextField7)}
-        else if !optionTextField8.isEmpty {tmpArray.append(optionTextField8)}
-        else if !optionTextField9.isEmpty {tmpArray.append(optionTextField9)}
-        else if !optionTextField10.isEmpty {tmpArray.append(optionTextField10)}
-        else if !optionTextField11.isEmpty {tmpArray.append(optionTextField11)}
-        else if !optionTextField12.isEmpty {tmpArray.append(optionTextField12)}
-    }
-     // 다른 방법, tmpArray를 optional롤 지정 후
-        tmpArray = [optionTextField1, optionTextField2, ... , optionTextField12].map {$0.text!}
-    */
     
     func createShortcut() {
         let context = CoreDataManager.shared.persistentContainer.viewContext
