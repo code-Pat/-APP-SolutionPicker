@@ -1,13 +1,6 @@
 import UIKit
 import CoreData
 
-/*
- 이곳에서 셀 display할때
- cell title은 = Shortcut.title
- cell option은 = Shortcut.option
- 으로 지정.
- */
-
 let cellID =  "cell"
 
 class MainViewController: UIViewController{
@@ -67,28 +60,7 @@ class MainViewController: UIViewController{
             //error
         }
     }
-    /*
-    // create an item -> title and save it to Shortcut model
-    func createShortcut() {
-        let context = CoreDataManager.shared.persistentContainer.viewContext
-        let shortcut = NSEntityDescription.insertNewObject(forEntityName: "Shortcut", into : context)
-        shortcut.setValue(titleName.text, forKey: "name")
-        shortcut.setValue(optionName.option, forkey: "option")
-        /*
-        let newItem = Shortcut(context: context)
-        newItem.title = title
-        //newItem.option = String()
-        */
-        do {
-            try context.save()
-        }
-        catch {
-            let nserror = error as NSError
-            fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
-            
-        }
-    }
-    */
+    
     
     // delete an item -> title from Shortcut model
     func deleteShortcut(item: Shortcut) {
